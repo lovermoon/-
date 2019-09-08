@@ -1,0 +1,2060 @@
+第一个窗体设计 form6
+namespace 旅游管理系统
+{
+    partial class Form6
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "已有娱乐资源";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(327, 194);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "刷新";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(94, 22);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(576, 150);
+            this.dataGridView1.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(29, 194);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "名称";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 237);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "联系人";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(29, 284);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "联系电话";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(29, 329);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 12);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "价钱";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(29, 362);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 12);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "地址";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(94, 194);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(152, 21);
+            this.textBox1.TabIndex = 8;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(94, 234);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(152, 21);
+            this.textBox2.TabIndex = 9;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(94, 284);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(152, 21);
+            this.textBox3.TabIndex = 10;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(94, 320);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(152, 21);
+            this.textBox4.TabIndex = 11;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(94, 353);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(152, 21);
+            this.textBox5.TabIndex = 12;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(327, 237);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "添加";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(327, 284);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "删除";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(327, 324);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "修改";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // Form6
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(703, 394);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Name = "Form6";
+            this.Text = "娱乐资源";
+            this.Load += new System.EventHandler(this.Form6_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Threading; 
+namespace 旅游管理系统
+{
+    public partial class Form6 : Form
+    {
+        string constr, sql;
+        public Form6()
+        {
+            InitializeComponent();
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            constr = "Server=.;Database=旅游管理系统;Trusted_Connection=SSPI";
+            sql = "select * from Amusement";
+            SqlConnection mycon = new SqlConnection(constr);
+            mycon.Open();
+            SqlDataAdapter myda = new SqlDataAdapter(sql, constr);
+            DataSet myds = new DataSet();
+            myda.Fill(myds, "Amusement");
+            dataGridView1.DataSource = myds.Tables["Amusement"];
+            mycon.Close();
+        }
+        private void button4_Click(object sender, EventArgs e)//修改
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "update Amusement set Aname='" + textBox1.Text + "',Acontact='" + textBox2.Text + "',Aphone='" + textBox3.Text
+                + "',Aprice='" + textBox4.Text + "',Aaddress='" + textBox5.Text + "'" + "where Aname='" + textBox1.Text + "'";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("修改成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            sql = "select * from Amusement";
+            SqlConnection mycon = new SqlConnection(constr);
+            mycon.Open();
+            SqlDataAdapter myda = new SqlDataAdapter(sql, constr);
+            DataSet myds = new DataSet();
+            myda.Fill(myds, "Amusement");
+            dataGridView1.DataSource = myds.Tables["Amusement"];
+            mycon.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)//添加
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Amusement(Aname,Acontact,Aphone,Aprice,Aaddress)values(" + "'" + textBox1.Text +
+                    "','" + textBox2.Text + "','" + textBox3.Text + "'," + int.Parse(textBox4.Text) +
+                    ",'" + textBox5.Text + "')";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show("数据不全！");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)//删除
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "delete from Amusement where Aname=" + "'" + textBox1.Text + "'";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("删除成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+    }
+}
+
+
+
+第二个
+namespace 旅游管理系统
+{
+    partial class Form4
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(290, 171);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "添加";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "已有景点";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(96, 171);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(127, 21);
+            this.textBox1.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 174);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "景点名称";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 218);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "联系人";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 257);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "联系人电话";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 301);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 12);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "门票价钱";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(96, 30);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(612, 135);
+            this.dataGridView1.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(96, 215);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(127, 21);
+            this.textBox2.TabIndex = 8;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(96, 257);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(127, 21);
+            this.textBox3.TabIndex = 9;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(96, 298);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(127, 21);
+            this.textBox4.TabIndex = 10;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(290, 215);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "删除";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(290, 255);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "修改";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 343);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "景点地址";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(96, 340);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(127, 21);
+            this.textBox5.TabIndex = 14;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(290, 290);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "刷新";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // Form4
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(728, 395);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.MinimumSize = new System.Drawing.Size(744, 434);
+            this.Name = "Form4";
+            this.Text = "景点资源";
+            this.Load += new System.EventHandler(this.Form4_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button4;
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Threading; 
+namespace 旅游管理系统
+{
+    public partial class Form4 : Form
+    {
+        string constr, sql,sql_;
+        SqlConnection mycon, mycon_;
+        SqlDataAdapter myda;
+        DataSet myds;
+        public Form4()
+        {
+            InitializeComponent();
+        }
+
+        private void updata_view()
+        {
+            mycon_ = new SqlConnection(constr);
+            mycon_.Open();
+            myda = new SqlDataAdapter(sql_, constr);
+            myds = new DataSet();
+            myda.Fill(myds, "Place");
+            dataGridView1.DataSource = myds.Tables["Place"];
+            mycon_.Close();
+        }
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            constr = "Server=.;Database=旅游管理系统;Trusted_Connection=SSPI";
+            sql_ = "select Pname,Pcontact,Pphone,Paddress from Place";
+            updata_view();
+           
+        }
+        private void button1_Click(object sender, EventArgs e)//添加
+        {
+            try
+            {
+
+                mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Place(Pname,Pcontact,Pphone,Pprice,Paddress)values(" + "'" + textBox1.Text +
+                    "','" + textBox2.Text + "','" + textBox3.Text + "'," + int.Parse(textBox4.Text) +
+                    ",'" + textBox5.Text + "')";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show("数据不全！");
+            }
+        }
+        private void button2_Click(object sender, EventArgs e)//删除
+        {
+            try
+            {
+                mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "delete from Place where Pname=" + "'" + textBox1.Text + "'";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("删除成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+        private void button3_Click(object sender, EventArgs e)//修改
+        {
+            try
+            {
+                mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "update Place set Pname='" + textBox1.Text + "',Pcontact='" + textBox2.Text + "',Pphone='" + textBox3.Text
+                + "',Pprice='" + textBox4.Text+"',Paddress='"+textBox5.Text+ "'" + "where Pname='" + textBox1.Text + "'";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("修改成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            updata_view();
+        }
+    }
+}
+
+
+
+namespace 旅游管理系统
+{
+    partial class Form5
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(92, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(521, 150);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "已有餐厅资源";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(275, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "刷新";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 191);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "餐厅名称";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 231);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "餐厅负责人";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(9, 273);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "负责人电话";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 310);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 12);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "价钱";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(9, 355);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 12);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "地址";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(92, 188);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(123, 21);
+            this.textBox1.TabIndex = 8;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(92, 228);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(123, 21);
+            this.textBox2.TabIndex = 9;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(92, 273);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(123, 21);
+            this.textBox3.TabIndex = 10;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(92, 307);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(123, 21);
+            this.textBox4.TabIndex = 11;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(92, 346);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(123, 21);
+            this.textBox5.TabIndex = 12;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(275, 228);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "添加";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(275, 273);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "删除";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(275, 310);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "修改";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // Form5
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(651, 406);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "Form5";
+            this.Text = "餐厅资源";
+            this.Load += new System.EventHandler(this.Form5_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Threading; 
+namespace 旅游管理系统
+{
+    public partial class Form5 : Form
+    {
+        string constr, sql,sql_;
+        public Form5()
+        {
+            InitializeComponent();
+        }
+        //全局变量
+        SqlConnection mycon,mycon_;
+        SqlDataAdapter myda;
+        DataSet myds;
+        SqlCommand cmd;
+        //
+        private void update_view(){
+            mycon_ = new SqlConnection(constr);
+            mycon_.Open();
+            myda = new SqlDataAdapter(sql_, constr);
+            myds = new DataSet();
+            myda.Fill(myds, "Restaurant");
+            dataGridView1.DataSource = myds.Tables["Restaurant"];
+            mycon_.Close();
+        }
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            constr = "Server=.;Database=旅游管理系统;Trusted_Connection=SSPI";
+            sql_ = "select * from Restaurant";
+            update_view();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            update_view();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Restaurant(Rname,Rcontact,Rphone,Rprice,Raddress)values(" + "'" + textBox1.Text +
+                    "','" + textBox2.Text + "','" + textBox3.Text + "'," + int.Parse(textBox4.Text) +
+                    ",'" + textBox5.Text + "')";
+                cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show("填充数据不全");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "delete from Restaurant where Rname=" + "'" + textBox1.Text + "'";
+                cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("删除成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "update Restaurant set Rname='" + textBox1.Text + "',Rcontact='" + textBox2.Text + "',Rphone='" + textBox3.Text
+                + "',Rprice='" + textBox4.Text + "',Raddress='" + textBox5.Text + "'" + "where Rname='" + textBox1.Text + "'";
+                cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("修改成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+    }
+
+
+路线4
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Threading; 
+namespace 旅游管理系统
+{
+    public partial class Form7 : Form
+    {
+        public Form7()
+        {
+            InitializeComponent();
+        }
+        string constr, sql;
+        SqlConnection mycon;
+        SqlDataAdapter da1,da2,da3;
+        DataSet ds1,ds2,ds3;
+        private void Form7_Load(object sender, EventArgs e)
+        {
+            constr = "Server=.;Database=旅游管理系统;Trusted_Connection=SSPI";
+            sql = "select Pid,Pname,Pprice from Place";
+            mycon = new SqlConnection(constr);
+            mycon.Open();
+            ds1 = new DataSet();
+            da1 = new SqlDataAdapter(sql, constr);
+            da1.Fill(ds1, "Place"); //产生数据源，即DataSet组件
+            bindingSource1.DataMember = ds1.Tables[0].TableName;//bdsUser为BindingSource组件
+            bindingSource1.DataSource = ds1;
+            dataGridView1.DataSource = bindingSource1;
+            textBox6.DataBindings.Add("Text", bindingSource1, "Pid");
+            label7.DataBindings.Add("Text", bindingSource1, "Pprice");
+
+            sql = "select Rid,Rname,Rprice from Restaurant";
+            //mycon = new SqlConnection(constr);
+
+            ds2 = new DataSet();
+            da2 = new SqlDataAdapter(sql, constr);
+            da2.Fill(ds2, "Restaurant"); //产生数据源，即DataSet组件
+            bindingSource2.DataMember = ds2.Tables[0].TableName;//bdsUser为BindingSource组件
+            bindingSource2.DataSource = ds2;
+            dataGridView2.DataSource = bindingSource2;
+            textBox7.DataBindings.Add("Text", bindingSource2, "Rid");
+            label8.DataBindings.Add("Text", bindingSource2, "Rprice");
+           
+
+            sql = "select Aid,Aname,Aprice from Amusement";
+            mycon = new SqlConnection(constr);
+            ds3 = new DataSet();
+            da3 = new SqlDataAdapter(sql, constr);
+            da3.Fill(ds3, "Amusement"); //产生数据源，即DataSet组件
+            bindingSource3.DataMember = ds3.Tables[0].TableName;//bdsUser为BindingSource组件
+            bindingSource3.DataSource = ds3;
+            dataGridView3.DataSource = bindingSource3;
+            textBox8.DataBindings.Add("Text", bindingSource3, "Aid");
+            label9.DataBindings.Add("Text", bindingSource3, "Aprice");
+            mycon.Close();
+            int t = int.Parse(label7.Text) + int.Parse(label8.Text) + int.Parse(label9.Text);
+            if (textBox2.Text != "") t += int.Parse(textBox2.Text);
+            textBox5.Text = ""+t.ToString();
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int t = 0;
+            t += int.Parse(label7.Text) + int.Parse(label8.Text) + int.Parse(label9.Text);
+            if(textBox2.Text!="")t+=int.Parse(textBox2.Text);
+            textBox5.Text = t.ToString();
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Line(Lname,Learn,Lprice,Lday,Laddress)values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox5.Text
+                    + "','" + textBox3.Text + "','" + textBox4.Text + "')";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)//添加p
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Line_P(Lname,Pid)values(" + "'" + textBox1.Text+"',"
+                    +int.Parse(textBox6.Text)+")";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show("数据不全！");
+            }
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "delete from Line_R where Rid=" + int.Parse(textBox7.Text);
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("删除成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Line_A(Lname,Aid)values(" + "'" + textBox1.Text + "',"
+                    + int.Parse(textBox8.Text) + ")";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show("数据不全！");
+            }
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "delete from Line_A where Aid=" + int.Parse(textBox8.Text);
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("删除成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "delete from Line_P where Pid="  + int.Parse(textBox6.Text);
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("删除成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.ToString());
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection mycon = new SqlConnection(constr);
+                mycon.Open();
+                sql = "insert into Line_R(Lname,Rid)values(" + "'" + textBox1.Text + "',"
+                    + int.Parse(textBox7.Text) + ")";
+                SqlCommand cmd = new SqlCommand(sql, mycon);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("添加成功！");
+                mycon.Close();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show("数据不全！");
+            }
+        }
+    }
+}
+
+
+namespace 旅游管理系统
+{
+    partial class Form7
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
+            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigatorCountItem2 = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorMoveFirstItem2 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem2 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem2 = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem2 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem2 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.label9 = new System.Windows.Forms.Label();
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigatorCountItem1 = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorMoveFirstItem1 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem1 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem1 = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem1 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem1 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
+            this.bindingNavigator1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
+            this.bindingNavigator3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
+            this.bindingNavigator2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource3)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "线路名称";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(71, 21);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(127, 21);
+            this.textBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(71, 60);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(127, 21);
+            this.textBox2.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "利润";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(253, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 12);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "天数";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(300, 18);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(127, 21);
+            this.textBox3.TabIndex = 5;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(300, 60);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(127, 21);
+            this.textBox4.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(253, 63);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 12);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "地区";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(445, 325);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 12);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "总价";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(491, 322);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(127, 21);
+            this.textBox5.TabIndex = 9;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.bindingNavigator1);
+            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Location = new System.Drawing.Point(34, 135);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(343, 148);
+            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "景点设定";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(24, 118);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(53, 21);
+            this.textBox6.TabIndex = 13;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(192, 116);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "删除";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(254, 17);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(56, 23);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "0";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(99, 118);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "添加";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // bindingNavigator1
+            // 
+            this.bindingNavigator1.AddNewItem = null;
+            this.bindingNavigator1.BindingSource = this.bindingSource1;
+            this.bindingNavigator1.CountItem = this.bindingNavigatorCountItem;
+            this.bindingNavigator1.DeleteItem = null;
+            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem,
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorSeparator,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorCountItem,
+            this.bindingNavigatorSeparator1,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorMoveLastItem,
+            this.bindingNavigatorSeparator2,
+            this.toolStripLabel1});
+            this.bindingNavigator1.Location = new System.Drawing.Point(3, 17);
+            this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.bindingNavigator1.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.bindingNavigator1.Name = "bindingNavigator1";
+            this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
+            this.bindingNavigator1.Size = new System.Drawing.Size(337, 25);
+            this.bindingNavigator1.TabIndex = 0;
+            this.bindingNavigator1.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(32, 22);
+            this.bindingNavigatorCountItem.Text = "/ {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "总项数";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Text = "移到第一条记录";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Text = "移到上一条记录";
+            // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "位置";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "当前位置";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Text = "移到下一条记录";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Text = "移到最后一条记录";
+            // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel1.Text = "价钱";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 43);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(307, 58);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.dataGridView2);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.bindingNavigator3);
+            this.groupBox2.Location = new System.Drawing.Point(418, 135);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(335, 148);
+            this.groupBox2.TabIndex = 11;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "餐厅设定";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(212, 116);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 16;
+            this.button5.Text = "删除";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(114, 116);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "添加";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 45);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(307, 58);
+            this.dataGridView2.TabIndex = 12;
+            // 
+            // label8
+            // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.Enabled = false;
+            this.label8.Location = new System.Drawing.Point(255, 17);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(61, 23);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "0";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bindingNavigator3
+            // 
+            this.bindingNavigator3.AddNewItem = null;
+            this.bindingNavigator3.BindingSource = this.bindingSource2;
+            this.bindingNavigator3.CountItem = this.bindingNavigatorCountItem2;
+            this.bindingNavigator3.DeleteItem = null;
+            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem2,
+            this.bindingNavigatorMovePreviousItem2,
+            this.bindingNavigatorSeparator6,
+            this.bindingNavigatorPositionItem2,
+            this.bindingNavigatorCountItem2,
+            this.bindingNavigatorSeparator7,
+            this.bindingNavigatorMoveNextItem2,
+            this.bindingNavigatorMoveLastItem2,
+            this.bindingNavigatorSeparator8,
+            this.toolStripLabel2});
+            this.bindingNavigator3.Location = new System.Drawing.Point(3, 17);
+            this.bindingNavigator3.MoveFirstItem = this.bindingNavigatorMoveFirstItem2;
+            this.bindingNavigator3.MoveLastItem = this.bindingNavigatorMoveLastItem2;
+            this.bindingNavigator3.MoveNextItem = this.bindingNavigatorMoveNextItem2;
+            this.bindingNavigator3.MovePreviousItem = this.bindingNavigatorMovePreviousItem2;
+            this.bindingNavigator3.Name = "bindingNavigator3";
+            this.bindingNavigator3.PositionItem = this.bindingNavigatorPositionItem2;
+            this.bindingNavigator3.Size = new System.Drawing.Size(329, 25);
+            this.bindingNavigator3.TabIndex = 0;
+            this.bindingNavigator3.Text = "bindingNavigator3";
+            // 
+            // bindingNavigatorCountItem2
+            // 
+            this.bindingNavigatorCountItem2.Name = "bindingNavigatorCountItem2";
+            this.bindingNavigatorCountItem2.Size = new System.Drawing.Size(32, 22);
+            this.bindingNavigatorCountItem2.Text = "/ {0}";
+            this.bindingNavigatorCountItem2.ToolTipText = "总项数";
+            // 
+            // bindingNavigatorMoveFirstItem2
+            // 
+            this.bindingNavigatorMoveFirstItem2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem2.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem2.Image")));
+            this.bindingNavigatorMoveFirstItem2.Name = "bindingNavigatorMoveFirstItem2";
+            this.bindingNavigatorMoveFirstItem2.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem2.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem2.Text = "移到第一条记录";
+            // 
+            // bindingNavigatorMovePreviousItem2
+            // 
+            this.bindingNavigatorMovePreviousItem2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem2.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem2.Image")));
+            this.bindingNavigatorMovePreviousItem2.Name = "bindingNavigatorMovePreviousItem2";
+            this.bindingNavigatorMovePreviousItem2.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem2.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem2.Text = "移到上一条记录";
+            // 
+            // bindingNavigatorSeparator6
+            // 
+            this.bindingNavigatorSeparator6.Name = "bindingNavigatorSeparator6";
+            this.bindingNavigatorSeparator6.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorPositionItem2
+            // 
+            this.bindingNavigatorPositionItem2.AccessibleName = "位置";
+            this.bindingNavigatorPositionItem2.AutoSize = false;
+            this.bindingNavigatorPositionItem2.Name = "bindingNavigatorPositionItem2";
+            this.bindingNavigatorPositionItem2.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem2.Text = "0";
+            this.bindingNavigatorPositionItem2.ToolTipText = "当前位置";
+            // 
+            // bindingNavigatorSeparator7
+            // 
+            this.bindingNavigatorSeparator7.Name = "bindingNavigatorSeparator7";
+            this.bindingNavigatorSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorMoveNextItem2
+            // 
+            this.bindingNavigatorMoveNextItem2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem2.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem2.Image")));
+            this.bindingNavigatorMoveNextItem2.Name = "bindingNavigatorMoveNextItem2";
+            this.bindingNavigatorMoveNextItem2.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem2.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem2.Text = "移到下一条记录";
+            // 
+            // bindingNavigatorMoveLastItem2
+            // 
+            this.bindingNavigatorMoveLastItem2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem2.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem2.Image")));
+            this.bindingNavigatorMoveLastItem2.Name = "bindingNavigatorMoveLastItem2";
+            this.bindingNavigatorMoveLastItem2.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem2.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem2.Text = "移到最后一条记录";
+            // 
+            // bindingNavigatorSeparator8
+            // 
+            this.bindingNavigatorSeparator8.Name = "bindingNavigatorSeparator8";
+            this.bindingNavigatorSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel2.Text = "价钱";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.button7);
+            this.groupBox3.Controls.Add(this.button6);
+            this.groupBox3.Controls.Add(this.dataGridView3);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.bindingNavigator2);
+            this.groupBox3.Controls.Add(this.label11);
+            this.groupBox3.Location = new System.Drawing.Point(34, 344);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(340, 148);
+            this.groupBox3.TabIndex = 11;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "娱乐场所设定";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(24, 115);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(53, 21);
+            this.textBox8.TabIndex = 13;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(192, 115);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "删除";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(99, 115);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 17;
+            this.button6.Text = "添加";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(0, 45);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowTemplate.Height = 23;
+            this.dataGridView3.Size = new System.Drawing.Size(307, 58);
+            this.dataGridView3.TabIndex = 14;
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(254, 17);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(56, 25);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "0";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bindingNavigator2
+            // 
+            this.bindingNavigator2.AddNewItem = null;
+            this.bindingNavigator2.BindingSource = this.bindingSource3;
+            this.bindingNavigator2.CountItem = this.bindingNavigatorCountItem1;
+            this.bindingNavigator2.DeleteItem = null;
+            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem1,
+            this.bindingNavigatorMovePreviousItem1,
+            this.bindingNavigatorSeparator3,
+            this.bindingNavigatorPositionItem1,
+            this.bindingNavigatorCountItem1,
+            this.bindingNavigatorSeparator4,
+            this.bindingNavigatorMoveNextItem1,
+            this.bindingNavigatorMoveLastItem1,
+            this.bindingNavigatorSeparator5,
+            this.toolStripLabel3});
+            this.bindingNavigator2.Location = new System.Drawing.Point(3, 17);
+            this.bindingNavigator2.MoveFirstItem = this.bindingNavigatorMoveFirstItem1;
+            this.bindingNavigator2.MoveLastItem = this.bindingNavigatorMoveLastItem1;
+            this.bindingNavigator2.MoveNextItem = this.bindingNavigatorMoveNextItem1;
+            this.bindingNavigator2.MovePreviousItem = this.bindingNavigatorMovePreviousItem1;
+            this.bindingNavigator2.Name = "bindingNavigator2";
+            this.bindingNavigator2.PositionItem = this.bindingNavigatorPositionItem1;
+            this.bindingNavigator2.Size = new System.Drawing.Size(334, 25);
+            this.bindingNavigator2.TabIndex = 0;
+            this.bindingNavigator2.Text = "bindingNavigator2";
+            // 
+            // bindingNavigatorCountItem1
+            // 
+            this.bindingNavigatorCountItem1.Name = "bindingNavigatorCountItem1";
+            this.bindingNavigatorCountItem1.Size = new System.Drawing.Size(32, 22);
+            this.bindingNavigatorCountItem1.Text = "/ {0}";
+            this.bindingNavigatorCountItem1.ToolTipText = "总项数";
+            // 
+            // bindingNavigatorMoveFirstItem1
+            // 
+            this.bindingNavigatorMoveFirstItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem1.Image")));
+            this.bindingNavigatorMoveFirstItem1.Name = "bindingNavigatorMoveFirstItem1";
+            this.bindingNavigatorMoveFirstItem1.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem1.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem1.Text = "移到第一条记录";
+            // 
+            // bindingNavigatorMovePreviousItem1
+            // 
+            this.bindingNavigatorMovePreviousItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem1.Image")));
+            this.bindingNavigatorMovePreviousItem1.Name = "bindingNavigatorMovePreviousItem1";
+            this.bindingNavigatorMovePreviousItem1.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem1.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem1.Text = "移到上一条记录";
+            // 
+            // bindingNavigatorSeparator3
+            // 
+            this.bindingNavigatorSeparator3.Name = "bindingNavigatorSeparator3";
+            this.bindingNavigatorSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorPositionItem1
+            // 
+            this.bindingNavigatorPositionItem1.AccessibleName = "位置";
+            this.bindingNavigatorPositionItem1.AutoSize = false;
+            this.bindingNavigatorPositionItem1.Name = "bindingNavigatorPositionItem1";
+            this.bindingNavigatorPositionItem1.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem1.Text = "0";
+            this.bindingNavigatorPositionItem1.ToolTipText = "当前位置";
+            // 
+            // bindingNavigatorSeparator4
+            // 
+            this.bindingNavigatorSeparator4.Name = "bindingNavigatorSeparator4";
+            this.bindingNavigatorSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorMoveNextItem1
+            // 
+            this.bindingNavigatorMoveNextItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem1.Image")));
+            this.bindingNavigatorMoveNextItem1.Name = "bindingNavigatorMoveNextItem1";
+            this.bindingNavigatorMoveNextItem1.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem1.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem1.Text = "移到下一条记录";
+            // 
+            // bindingNavigatorMoveLastItem1
+            // 
+            this.bindingNavigatorMoveLastItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem1.Image")));
+            this.bindingNavigatorMoveLastItem1.Name = "bindingNavigatorMoveLastItem1";
+            this.bindingNavigatorMoveLastItem1.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem1.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem1.Text = "移到最后一条记录";
+            // 
+            // bindingNavigatorSeparator5
+            // 
+            this.bindingNavigatorSeparator5.Name = "bindingNavigatorSeparator5";
+            this.bindingNavigatorSeparator5.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel3.Text = "价钱";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(201, 30);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 12);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "label11";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(653, 320);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "添加线路";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(40, 116);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(47, 21);
+            this.textBox7.TabIndex = 17;
+            // 
+            // Form7
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(776, 504);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Name = "Form7";
+            this.Text = " ";
+            this.Load += new System.EventHandler(this.Form7_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
+            this.bindingNavigator1.ResumeLayout(false);
+            this.bindingNavigator1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
+            this.bindingNavigator3.ResumeLayout(false);
+            this.bindingNavigator3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
+            this.bindingNavigator2.ResumeLayout(false);
+            this.bindingNavigator2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource3)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.BindingNavigator bindingNavigator1;
+        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
+        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
+        private System.Windows.Forms.BindingNavigator bindingNavigator3;
+        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem2;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem2;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem2;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator6;
+        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem2;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator7;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem2;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem2;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator8;
+        private System.Windows.Forms.BindingNavigator bindingNavigator2;
+        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem1;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem1;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem1;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator3;
+        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem1;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator4;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem1;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem1;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.BindingSource bindingSource2;
+        private System.Windows.Forms.BindingSource bindingSource3;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
+    }
+}
